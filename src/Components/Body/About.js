@@ -4,10 +4,10 @@ import Footer from './../Footer/Footer';
 const About = () => {
   document.title = "About";
   return (
-    <div className="">
-      <div className="row px-3 w-100">
-        <div className="col-md-6 bg-light">
-          <div className="text-center py-5">
+    <>
+      <div className="row px-3 w-100 py-3">
+        <div className="col-md-6 bg-light border">
+          <div className="text-center py-5 ">
             <h1> WHO WE ARE & HISTORY</h1>
             <h4 className="text-info">
               {" "}
@@ -35,9 +35,10 @@ const About = () => {
               alt=""
             ></img>
         </div>
+        
       </div>
       <Footer></Footer>
-    </div>
+    </>
   );
 };
 

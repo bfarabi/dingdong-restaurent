@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from '../dingdongLogo.jpg';
 
 import "./Navigation.css";
 
@@ -22,8 +23,9 @@ const Navigation = () => {
     };
     return (
       <div className="navbar" id="navbar">
-        <div className="logo text-light px-2 rounded">
-          <p className="logo-text mb-0">Dingdong Restaurant</p>
+        <div className="logo  mt-0 rounded">
+        <img className=" logo-img" src={Logo} alt="Logo" />
+          {/* <p className="logo-text mb-0">Dingdong Restaurant</p> */}
         </div>
         <div className={show ? "links active" : "links"}>
           <Link className="a" onClick={() => showSwitch()} to="/">
