@@ -72,12 +72,12 @@ class Menu extends Component {
         );
       }
       return (
-      <>
-        <div className="container">
+      <div className="bg-light ">
+        <div className="container ">
         <h2 class="section-title sep-type-2 text-center">
 				resturant menu
 			</h2>
-          <div className="row">
+          <div className="row d-flex justify-content-between align-items-center">
           
             {menu}
             {menu}
@@ -93,7 +93,7 @@ class Menu extends Component {
           </div>
         </div>
         <Footer></Footer>
-        </>
+        </div>
       );
     }
   }

@@ -41,7 +41,7 @@ handleInputChange = event => {
     document.title ="Contact";
     return (
         <div className="bg-light pt-3">
-      <div className="container ">
+      <div style={{height:"90vh"}} className="container ">
      
         <div className="row row-content text-left">
           <div className="col-12 col-md-7">

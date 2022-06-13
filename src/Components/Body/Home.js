@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import Menu from './Menu';
 
 // const mapStateToProps = (state) => {
 //  console.log("home redux",state);

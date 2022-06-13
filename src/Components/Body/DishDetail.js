@@ -1,5 +1,6 @@
 import React from 'react';
-import {Card,CardBody,CardImg,CardText,CardTitle} from 'reactstrap';
+import { Link } from 'react-router-dom';
+import {Button, Card,CardBody,CardImg,CardText,CardTitle} from 'reactstrap';
 import ComForm from './ComForm';
 import Comments from './Comments';
 
@@ -18,6 +19,7 @@ const DishDetail = (props) => {
                     <CardText>category: {props.dish.category}</CardText>
                     <CardText>Label: {props.dish.label}</CardText>
                     <CardText>Price: {props.dish.price}</CardText>
+                    <Link to="/contact"><Button className="btn btn-warning text-uppercase fw-bold ">Order now</Button></Link>
                     <h5 className="mb-0 pb-0">Comments :</h5>
                     <hr className="mt-0" />
                 

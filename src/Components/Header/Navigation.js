@@ -23,10 +23,10 @@ const Navigation = () => {
     };
     return (
       <div className="navbar" id="navbar">
-        <div className="logo  mt-0 rounded">
+        <Link to="/"><div className="logo  mt-0 rounded">
         <img className=" logo-img" src={Logo} alt="Logo" />
-          {/* <p className="logo-text mb-0">Dingdong Restaurant</p> */}
-        </div>
+          
+        </div></Link>
         <div className={show ? "links active" : "links"}>
           <Link className="a" onClick={() => showSwitch()} to="/">
             Home

@@ -5,9 +5,9 @@ const About = () => {
   document.title = "About";
   return (
     <>
-      <div className="row px-3 w-100 py-3">
+      <div style={{height:"90vh"}} className="row px-3 w-100 py-5  " >
         <div className="col-md-6 bg-light border">
-          <div className="text-center py-5 ">
+          <div className="text-center pt-5 ">
             <h1> WHO WE ARE & HISTORY</h1>
             <h4 className="text-info">
               {" "}
